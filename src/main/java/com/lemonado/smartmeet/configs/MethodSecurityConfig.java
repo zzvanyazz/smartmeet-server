@@ -1,4 +1,3 @@
-
 package com.lemonado.smartmeet.configs;
 
 import org.springframework.context.annotation.Configuration;

@@ -20,7 +20,7 @@ public class Swagger2Config {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.tntu.server.docs.communication"))
+                .apis(RequestHandlerSelectors.basePackage("com.lemonado.smartmeet.web.rest"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(apiEndpointsInfo())
@@ -30,8 +30,8 @@ public class Swagger2Config {
 
     private ApiInfo apiEndpointsInfo() {
         return new ApiInfoBuilder()
-                .title("TNTU")
-                .description("TNTU Docks Management Server API")
+                .title("SmartMeet")
+                .description("SmartMeet")
                 .version("1.0")
                 .build();
     }

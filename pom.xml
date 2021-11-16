@@ -20,6 +20,19 @@
         <spring-cloud.version>2020.0.4</spring-cloud.version>
     </properties>
     <dependencies>
+
+        <dependency>
+            <groupId>com.lemonado.smartmeetserver</groupId>
+            <artifactId>web</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemonado.smartmeetserver</groupId>
+            <artifactId>database</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
